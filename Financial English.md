@@ -55,7 +55,6 @@ A classification that describes the **nature of information** within the values 
     * Nominal GDP 名义国内生产总值
     * Real GDP
 * Ordinal Scale 顺序尺度
-<<<<<<< HEAD
   allows for **ranking order**, but still not allow for **relative degree** of difference
   n. 叙述
   adj. 顺序的 依次的
@@ -83,9 +82,14 @@ A classification that describes the **nature of information** within the values 
     * discrete / continuous variables
 
 ## Central Tendency(1)
+* Central Tendency
+  A measure of central tendency **specifies where the data are centered**
 * Mean 
-=======
-  allow for **ranking order**, but still not allow for **relative degree** of difference
-* Interval Scale 区间尺度
-* Ratio Scale 比率尺度
->>>>>>> f07127baf8496fe9d88ac6a4f920ce6124470d4b
+  most common measure of central tendency
+  * phrases
+    * Arithmetic Mean
+      **Sum** of observations **divided by the number** of observations
+    * Geometric Mean
+    * Weighted Mean
+    * Harmonic Mean 调和平均
+    * Meaning 意味深长的
