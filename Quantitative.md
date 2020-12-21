@@ -44,3 +44,24 @@
     2. $lim_{n \rightarrow +\infty}(1 + \frac{I/Y}{n})^{\frac{n}{I/Y} \times I/Y}= e^{I/Y}$
   * Compounding frequency $n$ 
   * Periodic IR ($\frac{I/Y}{n}$)
+
+### Future Value and Present Value
+* PV: value of an initial investment (discount of FV)
+* FV: value of initial investment would be worth n periods from today
+  |    Compounding    |           Discount           |
+  |-------------------|----------------------------- |
+  | $FV = (1 + r)^n \times PV$  |  $PV = \frac{FV}{(1 + r)^n}$ |
+* Annuity  
+  A set of **constant** sequential cash flows
+  * Ordinary Annuity (普通年金 / 后付年金)   
+    occur at the **end** of each period
+  * Annuity Due (先付年金)  
+    occur at the **beginning** of each period
+  * Ordinary Annuinty * (1 + r) = Annuity Due  
+    Main diff is the **beginning of 1st year**
+* Perpetuity (永续年金)  
+  set of constant **never-ending** sequential cash flows occuring at the **end of each period**
+* PV of PMT / Annuity:
+  What we need to invest to get the PMT / Annuity (Can be treated as the service charges, to get rid of this charge)
+* PV of perpetutity  
+  $PV = \frac{A}{r}$
