@@ -61,7 +61,48 @@
     Main diff is the **beginning of 1st year**
 * Perpetuity (永续年金)  
   set of constant **never-ending** sequential cash flows occuring at the **end of each period**
-* PV of PMT / Annuity:
-  What we need to invest to get the PMT / Annuity (Can be treated as the service charges, to get rid of this charge)
+* PV of PMT / Annuity:  
+  What we need to invest to get the PMT / Annuity
 * PV of perpetutity  
   $PV = \frac{A}{r}$
+* Note: Given PMT , FV = 0 to calculate, can be understood as 
+  
+  "You invest PV amount of money, and withdraw PMT amount at each period, such that our FV is 0"
+
+### Application of Calculator
+Note the diretcion of cash flow
+details in the `Calculator` notes
+
+## Statistical Concepts and Market Returns
+### Basic Concepts of Statistics
+* Basic Concepts
+  * Descriptive statistics
+    How data can be **summarised effectively** to describe the important aspects
+  * Inferential statistics
+    Involves making **forecasts**, **estimates**, or **judgements** about a larger group from the smaller group observed
+  * Population
+    * All members of a specified group
+    * **Parameter**: any descriptive measure of a population characteristic
+  * Sample
+    * A subset of a population
+    * **Sample statistic**: any descriptive measure of a sample characteristic
+* Measurement Scales
+  * Nominal Scale
+  * Ordinal Scale
+  * Interval Scale
+  * Ratio Scale
+* Frequency Distribution
+  * Absolute 
+  * Cumulative Absolute
+  * Relative (%)
+  * Cumulative Relative
+* Quantitative Description of Destribution(矩 k power)
+  * Central tendency
+  * Dispersion 
+    How far returns are dispersed from center
+  * Skewness
+    Whether the distribution of returns is symmetrically shaped
+  * Kurtosis (峰度)
+    Whether extreme outcomes are likely or whether fatty tails exist
+### Measures of Central Tendency: Means
+* Arithmetic Mean

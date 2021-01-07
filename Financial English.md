@@ -87,9 +87,20 @@ A classification that describes the **nature of information** within the values 
 * Mean 
   most common measure of central tendency
   * phrases
-    * Arithmetic Mean
-      **Sum** of observations **divided by the number** of observations
+    * Arithmetic(Normal) Mean
     * Geometric Mean
+      **n-th root** of the product of n numbers
     * Weighted Mean
     * Harmonic Mean 调和平均
-    * Meaning 意味深长的
+      * summing the reciprocals of the observations
+      * average the sum
+      * take the reciprocal of the average
+  * AM $\ge$ GM $\ge$ HM
+    * equality holds iff all thee elements of the given sample are equal
+
+## Central Tendency(2)
+* Mean  
+  Most frequent use for central tendency
+* Median  
+  Most useful in the case of skewed distributions
+* Mode
