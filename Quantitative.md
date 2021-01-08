@@ -106,3 +106,73 @@ details in the `Calculator` notes
     Whether extreme outcomes are likely or whether fatty tails exist
 ### Measures of Central Tendency: Means
 * Arithmetic Mean
+  * Population Mean
+    $\mu = \frac{\sum\limits_{i=1}^NX_i}{N}$
+  * Sample Mean  
+    $\bar{x} = \frac{\sum\limits_{i=1}^nX_i}{n}$
+  * Focus on average **single-period** performance
+  * Senstitive with extreme values
+* Weighted Mean 
+  
+  Mostly used to calculate the **portfolio return** or the **expected value** based on probabolities
+* Geometric Mean
+  
+  $G = (X_1X_2...X_n)^{\frac{1}{n}}$
+  Used to calculate **average periodic compound rate of return** on investment
+  over a **multi-period** horizon
+
+  Period Return = $((1 + R_1)(1 + R_2)...(1 + R_n))^{\frac{1}{n}} - 1$
+* Harmonic Mean
+  
+  $\bar{X} = \frac{N}{\sum\limits_{i=1}^N\frac{1}{X_i}}$
+  * Used to find the **average cost per share of stock** purchased over time in ** constant dollar amounts**
+  * Cannot be used when $x_i = 0$
+* Comparison
+  
+  Harmonic $\le$ Geometric $\le$ Arithmetic
+  * When all elements equal, then these equal
+  * Great variablility, more disperse of data
+### Measures of Central Tendency: Median & Mode
+* Median
+  * Odd $\frac{n + 1}{2}$
+  * Even mean of $\frac{n}{2} $ and $\frac{n + 2}{2}$
+  * Pros: Not affected by outliers
+  * Cons: Only consider the middle one or two, rest are ignored
+* Mode
+  * Most frequently occuring value
+  * Could have more than one (bimodal, trimodal)
+  * Useful for large data as a supplement(difficult the mean)
+* Quantile (4)/ Quintiles (5)/ Deciles (10)/ Percentiles (100)
+  * Used to **rank performance** and investment research
+  * Location: $L = (n + 1) \cdot \frac{y}{100}$
+### Measures of Dispersion
+* Dispersion describes the variability around the central tendency
+* Range
+  
+  Only use 2 limit, tell nothing else
+* Mean Absolute Deviation (MAD)
+  
+  $\frac{\sum\limits_{i=1}^n\lvert X_i - \bar{X}\rvert}{n}$
+* Variance
+  
+  Equals to average of the sum of squared deviations around the mean  
+  * Population Variance: $\sigma^2 = \frac{\sum\limits_{i = 1}^N(X_i - \mu)^2}{N}$
+  * Sample Variance: $s^2 = \frac{\sum\limits_{i = 1}^n (X_i - \bar{X})^2}{n - 1}$ (where k is the degree of freedom, here is 1, so divided by n - 1.)
+* Standard Deviation
+### Chebyshev's Inequality and other topics
+* Chebyshev's Inequality 
+  
+  For any distribution with finite variance, the minimum percentage of observations that lie within k standard deviations of the mean would be $1 - \frac{1}{k^2}$, givem $k > 1$
+  * Note: the variance must be finite, which is a premise
+* Coefficient of Variation (CV) 
+   
+  A measure of **risk per unit of mean return** thus the lower is better
+  $CV = \frac{s}{\bar{X}}$
+* Sharpe Ratio  
+  SR = $\frac{\bar{R_p} - \bar{R_F}}{\sigma_p}$
+
+  * $R_f$: 无风险收益率, 
+  * $\bar{R_p} - R_f$: Mean excess return (超额(无风险)收益)
+
+  A measure of **excess return per unit of risk**, thus the higher is better (only valid for positive SR)
+  (一单位的风险，几单位的超额收益)
