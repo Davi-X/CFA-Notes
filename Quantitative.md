@@ -167,7 +167,7 @@ details in the `Calculator` notes
 * Coefficient of Variation (CV) 
    
   A measure of **risk per unit of mean return** thus the lower is better
-  $CV = \frac{s}{\bar{X}}$
+  $CV = \frac{s}{\mu}$
 * Sharpe Ratio  
   SR = $\frac{\bar{R_p} - \bar{R_F}}{\sigma_p}$
 
@@ -176,3 +176,31 @@ details in the `Calculator` notes
 
   A measure of **excess return per unit of risk**, thus the higher is better (only valid for positive SR)
   (一单位的风险，几单位的超额收益)
+### Skewness & Kurtosis
+* Skewness 
+  * Indicate the **degree of symmetry** of return distributions
+  * Sample skewness($S_k$) = $[\frac{n}{(n-1)(n-2)}]\frac{\sum\limits_{i=1}^n(X_i - \mu)^3}{\sigma^3}$
+  * $S_k = 0$ Mean = Median = Mode 
+  * Positively (Right) skewed $S_k \ge 0$ 
+    * Mode < Median < Mean
+    * Frequent small losses
+    * A few extreme gains
+  * Negatively (left) skewed $S_k \le 0$ 
+    * Mean < Median < Mode 
+    * A few extreme losses
+    * Frequent small gains
+* Kurtosis
+  Degree to which the distribution is **more or less peaked than normal distribution**
+
+  * Sample kurtosis (K) = $[\frac{n(n + 1)}{(n-1)(n-2)(n-3)}]\frac{\sum\limits_{i=1}^n(X_i - \mu)^4}{\sigma^4}$
+  * Excess kurtosis: k - 3
+  * Assumption: $\mu$ and $\sigma$ are equal, then we can say if k > 3, then Leptokurtic...
+  (Consider the conter-example Student T-Dist)
+    * Leptokurtic (高峰态)
+      * More peaked, fatter tailed than Normal Dist
+      * Kurtosis > 3, excess > 0
+    * Mesokurtic (常峰态)
+    * Platykurtic (低峰态)
+      * Less peaked, thinner tailed than Normal Dist
+      * Kurtosis < 3, excess < 0
+
